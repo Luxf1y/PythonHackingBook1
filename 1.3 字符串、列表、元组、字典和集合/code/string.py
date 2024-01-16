@@ -44,6 +44,6 @@ print("formart method call:My name is {name} and weight is {weight} kg!".format(
 #三引号
 print('三引号.....')
 hi = '''hi
-  i am  玄魂'''
+  i am  玄魂'''
 print(hi)
 
