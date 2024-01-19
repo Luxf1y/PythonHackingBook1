@@ -11,8 +11,14 @@ else:
 #for 
 print('for 测试.....')
 words = ['cat', 'window', 'defenestrate']
-for word in words:
-    print(word,len(word))
+for i in words:
+    print(i,len(i))
+
+#for practise
+print("for test:")
+words=['test001','test002','test003']
+for i in words 
+    print(i,len(i))
 
 #利用切片复制列表
 print('利用切片复制列表.....')
@@ -28,6 +34,15 @@ while(count<9):
     print('the index is:',count)
     count +=1
 
+#while practis
+i=0
+while(i<10):
+    print(i)
+    i=i+1
+    
+
+
+
 #range
 print('range.....')
 a=range(5)
@@ -39,6 +54,11 @@ print(b)
 for i in c:
     print("value is",i)
 
+for i in a:
+    print("value is",i)
+
+for i in b:
+    print("value is",i)
 #break
 print('break.....')
 for n in range(2, 10):
