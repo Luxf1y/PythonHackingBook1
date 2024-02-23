@@ -24,6 +24,13 @@ p2 = Person2('玄魂')
 p2.sayHi()
 
 
+# class Person2test:
+#     def sayHi:
+#         a=input("请输入你的姓名")
+#         print(a)
+
+# Person2test().sayHi
+
  
 class Person3:
     '''Represents a person.'''
@@ -62,6 +69,50 @@ kl.howMany()
  
 xh.sayHi()
 xh.howMany()
+
+class Person3:
+    count=0
+    def __init__(self,name):
+        self.name=name
+        print('初始化姓名： %s.'% self.name) 
+        Person3.count+=1
+    def sayhi(self):
+        print('hello my name is %s.'% self.name) 
+    def howmany(self):
+        if Person3.count>1:
+            print("不是一个人")
+        else:
+            print("有很多个人")
+
+
+k1=Person3('lyf')
+k1.sayhi()
+k1.howmany()
+
+k2=Person3('zyl')
+k2.sayhi()
+k2.howmany()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class SchoolMember:
     '''Represents any school member.'''

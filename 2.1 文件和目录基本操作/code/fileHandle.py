@@ -2,11 +2,17 @@
 import os
 
 print(os.getcwd())
-filePath = './python黑客编程/python黑客编程入门版/2.1 文件和目录/code/test.txt'
+filePath = 'PythonHackingBook1\2.1 文件和目录基本操作\code\test.txt'
 
-file = open(filePath,'r')
+# file = open(filePath,'r')
+# print(file.read())
+# file.close()
+
+#修改后
+file = open(r"C:\VsCoding\github\PythonHackingBook1\2.1 文件和目录基本操作\code\test.txt","r",encoding='utf-8')
 print(file.read())
 file.close()
+
 
 print('读取部分内容.....')
 

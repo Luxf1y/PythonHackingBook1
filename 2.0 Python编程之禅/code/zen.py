@@ -6,8 +6,10 @@
 # if char !='c':
 # print 'not c'
 
-stringStest = 'abcdefghijk'
+# stringStest = 'abcdefghijk'
  
-for char in stringStest[1:]:
-    if char !='c':
-        print('not c')
+# for char in stringStest[1:]:
+#     if char !='c':
+#         print('not c')
+
+import this

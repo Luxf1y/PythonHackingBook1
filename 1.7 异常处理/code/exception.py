@@ -2,7 +2,7 @@
 
 
 #Print('hello')
-
+#NameError: name 'Print' is not defined
 
 # while True:
 #     try:
